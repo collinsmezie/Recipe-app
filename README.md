@@ -27,8 +27,8 @@ To get a local copy up and running follow these simple steps.
 
 Clone the repository using the below commands.
 
-- `git clone git@github.com:aimalamiri/Rails-Recipe.git `
-- `cd Rails-Recipe`
+- `git clone git@github.com:collinsmezie/Recipe-app.git `
+- `cd Rails-app`
 - `cp .env.example .env`
 - `Add your credentials to .env file`
 - `rails db:create db:migrate`
@@ -40,23 +40,19 @@ Kindly modify the files as needed.
 
 ## Author
 
-👤 **Aimal Aimiri**
+👤 **Collins Mezie**
 
-- GitHub: [@aimalamiri](https://github.com/aimalamiri)
-- Twitter: [@meaimal](https://twitter.com/meaimal)
-- LinkedIn: [Aimal Amiri](https://linkedin.com/in/aimal-amiri)
+- GitHub: [@collinsmezie](https://github.com/collinsmezie)
+- Twitter: [@collinsmezie](https://twitter.com/collinsmezie1)
+- LinkedIn: [collinsmezie](https://linkedin.com/in/collinsmezie)
 
 
-👤 **Ali Jandoubi**
-
-- GitHub: [@ichala](https://github.com/ichala)
-- LinkedIn: [@alijendoubi](https://www.linkedin.com/in/alijendoubi/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/aimalamiri/Rails-Recipe/issues).
+Feel free to check the [issues page](https://github.com/collinsmezie/Recipe-app/issues).
 
 ## Show your support
 
