@@ -6,7 +6,7 @@ Discover created recipes or start your own recipe creations , easily modifying i
 them all in one place and cook them with joy! You also have the permission to make it public or private.
 
 ## Live Demo
-[Demo Link](https://rails-recipe-00023.herokuapp.com/)
+[Demo Link]()
 
 ## Built With
 
