@@ -1,7 +1,7 @@
 databases:
-  - name: Rails_Recipe
+  - name: postgres
     databaseName: Rails_Recipe_production
-    user: Rails_Recipe
+    user: postgres
 
 services:
   - type: web
