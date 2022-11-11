@@ -20,14 +20,15 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  # username: <%= ENV["DB_USERNAME"] %>
-  # password: <%= ENV["DB_PASSWORD"] %>
-  username: postgres
-  password: recipe
+  username: <%= ENV["DB_USERNAME"] %>
+  password: <%= ENV["DB_PASSWORD"] %>
 
 development:
   <<: *default
   database: Rails_Recipe_development
+  username: postgres
+  password: recipe
+  
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -88,4 +89,3 @@ production:
   database: Rails_Recipe_production
   username: Rails_Recipe
   password: <%= ENV["RAILS_RECIPE_DATABASE_PASSWORD"] %>
-  url: <%= ENV['DATABASE_URL'] %>
