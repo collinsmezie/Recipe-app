@@ -1,11 +1,11 @@
 databases:
-  - name: postgres
-    databaseName: postgres
-    user: postgres
+  - name: recipeapp
+    databaseName: recipeapp
+    user: recipeapp
 
 services:
   - type: web
-    name: postgres
+    name: recipeapp
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
