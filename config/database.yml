@@ -86,3 +86,4 @@ production:
   database: Rails_Recipe_production
   username: Rails_Recipe
   password: <%= ENV["RAILS_RECIPE_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
