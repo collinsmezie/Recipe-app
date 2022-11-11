@@ -1,11 +1,10 @@
 databases:
   - name: postgres
-    databaseName: Rails_Recipe_production
-    user: postgres
+    ipAllowList: []
 
 services:
   - type: web
-    name: Rails_Recipe
+    name: rails
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
